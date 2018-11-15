@@ -1,0 +1,90 @@
+body {
+	background: palegreen;
+	text-align: center;
+	font-family: Arial; 
+	grid-templaate-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+}
+
+.gago {
+	background-position: cover;
+}
+
+a {
+	text-decoration: none;
+	font-family: Arial;
+}
+.h1 {
+	background: grey;
+}
+
+.body {
+	color: #fff;
+	text-align: center;
+	border: 8px solid black;
+	font-family: Arial;
+	font-size: 15px;
+	background: black;
+}
+
+.button {
+	background: #DA70d6;
+	color: white;
+	padding: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.button:hover {
+	background: deeppink;
+	color: black;
+}
+
+#main-menu {
+	margin: 0px;
+	text-align: center;
+	list-style: none;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(4,1fr);
+}
+.first-article {
+	margin-bottom: 20px;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 3fr 1fr;
+	text-align: justify;
+}
+
+.first-article-left {
+	color: black;
+	background: lightcoral;
+	display: grid;
+	grid-gap: 40px;
+	box-shadow: 0 0 5px grey;
+	grid-row: 1/2;
+	grid-column: 1/4;
+	
+}
+.photo-container {
+	text-align: center;
+	margin-bottom: 30px;
+	margin-top: 40px;
+	margin-right: 50px;
+}
+.article-container {
+	grid-column: 1/2;
+	grid-row: 2/3;
+	text-align: center;
+	margin-top: 15px;
+	margin-right: 15px;
+	margin-left: 15px;
+}
+
+.first-article-left p {
+	margin: 10px 0 50px 0;
+}
+
+.first-article-left p:hover {
+	color: gold;
+}

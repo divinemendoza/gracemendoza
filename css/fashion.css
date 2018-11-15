@@ -1,0 +1,138 @@
+body {
+	background: palegreen;
+	text-align: center;
+	font-family: Arial;
+}
+
+a {
+	text-decoration: none;
+}
+
+#main-menu {
+	list-style: none;
+	grid-gap: 10px;
+	display: grid;
+	text-align: center;
+	grid-template-columns: repeat(4,1fr);
+}
+
+.pichover {
+	background-image: url(../images/chaka.jpg);
+	width: 600px;
+	height: 700px;
+}
+
+.button {
+	padding: 10px;
+	background-color: #DA70d6;
+	color: white
+}
+
+.button:hover {
+	background-color: deeppink;
+	color: black;
+}
+
+.first-article {
+	margin-bottom: 20px;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 3fr 1fr;
+	text-align: justify;
+}
+
+.first-article-left {
+	color: black;
+	background: lavender;
+	padding: 40px;
+	display: grid;
+	grid-gap: 50px;
+	grid-template-columns: 1fr 1fr;
+	box-shadow: 0 0 5px grey;
+}
+
+.first-article-left p {
+	margin: 40px 0 60px 0;
+}
+
+.first-article-right {
+	background: lavender;
+	padding: 40px;
+	color: black;
+}
+
+.first-article-right p {
+	margin: 40px 0 60px 0;
+}
+
+.second-article{
+	padding: 10px;
+	margin: 10px;
+	border: solid black;
+	color: black;
+	text-align: right;
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+	background: peachpuff;
+}
+.second-article p{
+	margin: 40px 0 60px 0;
+}
+.third-article{
+	color: black;
+	background: #33FFBD;
+	padding: 40px;
+	display: grid;
+	grid-gap: 50px;
+	box-shadow: 0 0 5px grey;
+	grid-template-columns: 1fr 1fr;
+}
+.third-article p{
+	margin: 40px 0 60px 0;
+}
+.fourth-article{
+	color: black;
+	padding: 10px;
+	margin: 10px;
+	border: solid black;
+	background: thistle;
+	text-align: right;
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+}
+.fourth-article p{
+	margin: 40px 0 60px 0;
+}
+
+.fourth-article p:hover	{
+	color: deeppink;
+}
+.fifth-article{
+	color: white;
+	background: lightpink;
+	padding: 40px;
+	display: grid;
+	grid-gap: 50px;
+	box-shadow: 0 0 5px grey;
+	grid-template-columns: 1fr 1fr;
+}
+.fifth-article p{
+	margin: 40px 0 60px 0;
+}
+
+.fifth-article p:hover{
+	color: deeppink;
+
+}
+
+.third-article p:hover	{
+	color: deeppink;
+}
+
+.second-article p:hover	{
+	color: deeppink;
+}
+
+.first-article p:hover	{
+	color: deeppink;
+}

@@ -1,0 +1,42 @@
+body {
+	background: palegreen;
+	font-family: Arial;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	text-align: center;
+}
+
+.button {
+	padding: 10px;
+	background: #DA70d6;
+	color: black;
+}
+
+.button:hover {
+	background: deeppink;
+	color: black;
+}
+
+#main-menu {
+	list-style: none;
+	grid-gap: 10px;
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+}
+
+.container {
+	border: 10px black double;
+	padding: 295px;
+	background-image: url(../images/fashion.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.kikiw {
+	padding: 20px;
+	background: black;
+	color: white;
+}

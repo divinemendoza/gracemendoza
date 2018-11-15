@@ -1,0 +1,118 @@
+body {
+	background: palegreen;
+	text-align: center;
+	font-family: Arial;
+}
+
+a {
+	text-decoration: none;
+	text-align: center;
+}
+
+.button {
+	padding: 10px;
+	background: #DA70d6;
+	color: white;
+}
+
+.button:hover {
+	background: deeppink;
+	color: black;
+}
+
+#main-menu {
+	display: grid;
+	list-style: none;
+	grid-gap: 10px;
+	grid-template-columns: repeat(4,1fr);
+	margin: 50px;
+}
+
+.container {
+	grid-gap: 0px;
+	grid-template-columns: 1fr 1fr 1fr;
+	display: grid;
+	margin: 50px;
+	
+}
+.container > div {
+	border: 1px solid black;
+	padding: 150px;
+}
+
+.one:hover {
+
+	background-image: url(../images/bgs.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.one {
+
+	background-image: url(../images/fashionbagshover.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.two:hover {
+
+	background-image: url(../images/blockheelshover.jpg);
+	background-size: cover;
+	background-position: center;
+	
+}
+.two {
+
+	background-image: url(../images/snds.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.three:hover {
+
+	background-image: url(../images/cosmeticshover.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.three {
+
+	background-image: url(../images/mk.jpg);
+		background-size: cover;
+	background-position: center;
+}
+
+.four:hover {
+
+	background-image: url(../images/rompershover.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.four {
+
+	background-image: url(../images/rmps.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.five:hover {
+
+	background-image: url(../images/r.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.five {
+
+	background-image: url(../images/errngs.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.six {
+
+	background-image: url(../images/text.png);
+	background-size: cover;
+	background-position: center;
+}
+
+
+
+
+
+
